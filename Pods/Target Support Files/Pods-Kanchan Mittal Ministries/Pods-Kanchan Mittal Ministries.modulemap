@@ -1,0 +1,6 @@
+framework module Pods_Kanchan_Mittal_Ministries {
+  umbrella header "Pods-Kanchan Mittal Ministries-umbrella.h"
+
+  export *
+  module * { export * }
+}

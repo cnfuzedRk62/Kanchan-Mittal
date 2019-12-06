@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="linkTableViewCell" rowHeight="295" id="KGk-i7-Jjw" customClass="linkTableViewCell" customModule="Kanchan_Mittal_Ministries" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="295"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="295"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KRF-ap-QuC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="295"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For 24*7 Prayers Call Us 0172-293-3333" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3O-X2-1bJ">
+                                <rect key="frame" x="10" y="10" width="300" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subscribe to our Kanchan Mittal Ministries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cB-hi-eqj">
+                                <rect key="frame" x="29" y="31" width="262.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.43529411759999997" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WGZ-fY-1EZ">
+                                <rect key="frame" x="19" y="57" width="291" height="228"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="WGZ-fY-1EZ" secondAttribute="bottom" constant="10" id="2DG-7M-t6B"/>
+                            <constraint firstItem="d3O-X2-1bJ" firstAttribute="top" secondItem="KRF-ap-QuC" secondAttribute="top" constant="10" id="Ekh-xV-bhw"/>
+                            <constraint firstItem="d3O-X2-1bJ" firstAttribute="leading" secondItem="KRF-ap-QuC" secondAttribute="leading" constant="10" id="FLd-Va-SnX"/>
+                            <constraint firstAttribute="trailing" secondItem="WGZ-fY-1EZ" secondAttribute="trailing" constant="10" id="ZnL-aE-E45"/>
+                            <constraint firstAttribute="trailing" secondItem="d3O-X2-1bJ" secondAttribute="trailing" constant="10" id="en6-la-CIS"/>
+                            <constraint firstItem="4cB-hi-eqj" firstAttribute="centerX" secondItem="KRF-ap-QuC" secondAttribute="centerX" id="eym-iv-428"/>
+                            <constraint firstItem="d3O-X2-1bJ" firstAttribute="centerX" secondItem="KRF-ap-QuC" secondAttribute="centerX" id="jLU-2P-yDZ"/>
+                            <constraint firstItem="WGZ-fY-1EZ" firstAttribute="leading" secondItem="KRF-ap-QuC" secondAttribute="leading" constant="19" id="lFT-fi-MlP"/>
+                            <constraint firstItem="WGZ-fY-1EZ" firstAttribute="top" secondItem="4cB-hi-eqj" secondAttribute="bottom" constant="10" id="ngX-nW-SVQ"/>
+                            <constraint firstItem="4cB-hi-eqj" firstAttribute="top" secondItem="d3O-X2-1bJ" secondAttribute="bottom" constant="5" id="yoY-j2-Qn7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="KRF-ap-QuC" secondAttribute="bottom" id="72L-ns-7Ne"/>
+                    <constraint firstItem="KRF-ap-QuC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nNJ-g3-eyz"/>
+                    <constraint firstItem="KRF-ap-QuC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oHr-DZ-7s2"/>
+                    <constraint firstAttribute="trailing" secondItem="KRF-ap-QuC" secondAttribute="trailing" id="omd-ab-wIq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="subscribeLbl" destination="4cB-hi-eqj" id="6Mk-9b-4mD"/>
+                <outlet property="tableVIew" destination="WGZ-fY-1EZ" id="Y0I-av-fjB"/>
+                <outlet property="topLbl" destination="d3O-X2-1bJ" id="5dG-g1-gva"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="221.31696428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
